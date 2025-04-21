@@ -5,6 +5,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
+  logLevel: 'silent', 
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
