@@ -2,19 +2,20 @@
 import { NavbarDemo } from "./components/Navbar" // adjust path if needed
 import { Hero } from "./components/sections/Hero.tsx"
 import  Problem  from "./components/sections/Problem.tsx"
-// import { Solution } from "./components/sections/Solution"
+
+import Solution from "./components/sections/Solution.tsx"
 // import { Traction } from "./components/sections/Traction"
 // import { CTA } from "./components/sections/CTA"
 
 function App() {
   return (
-    <div className="min-h-screen pt-12">
+    <div className="min-h-screen mt-30">
       <NavbarDemo /> 
-      <main className="mt-32"> 
+      <main className=""> 
         <Hero />
         <Problem />
-        {/* <Solution />
-        <Traction />
+        <Solution />
+        {/* <Traction />
         <CTA /> */}
       </main>
     </div>

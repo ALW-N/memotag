@@ -13,7 +13,8 @@ import { useState } from "react";
 
 import logo from "@/assets/memotag-logo.svg";
 
-import { ModeToggle } from "./mode-toggle"
+import { ModeToggle } from "./mode-toggle";
+
 
 export function NavbarDemo() {
   const navItems = [
@@ -22,35 +23,39 @@ export function NavbarDemo() {
       link: "#features",
     },
     {
-      name: "Pricing",
-      link: "#pricing",
+      name: "About Us",
+      link: "https://www.memotag.io/about",
     },
     {
       name: "Contact",
-      link: "#contact",
+      link: "https://www.memotag.io/waitlist-form",
     },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="relative w-full">
+    <div className="fixed top-5 left-0 w-full z-50 bg-white dark:bg-black">
       <Navbar>
         {/* Desktop Navigation */}
         <NavBody>
-        <img src={logo} alt="Logo" className="h-8 w-auto" />
+          <img src={logo} alt="Logo" className="h-8 w-auto" />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-          <ModeToggle />
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <div className="relative">
+              <ModeToggle />
+            </div>
+
+            
+            <NavbarButton variant="primary" href="https://chat.whatsapp.com/FOreKmWYdll4XPQPCZNrWS">Book a call</NavbarButton>
+            
           </div>
         </NavBody>
 
         {/* Mobile Navigation */}
         <MobileNav>
           <MobileNavHeader>
-          <img src={logo} alt="Logo" className="h-8 w-auto" />
+            <img src={logo} alt="Logo" className="h-8 w-auto mx-auto" />
             <MobileNavToggle
               isOpen={isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -69,7 +74,7 @@ export function NavbarDemo() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-            <ModeToggle />
+              <ModeToggle />
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
@@ -91,5 +96,3 @@ export function NavbarDemo() {
     </div>
   );
 }
-
-

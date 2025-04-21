@@ -7,96 +7,43 @@ export function Hero() {
 }
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Reminders and Alerts",
     link: "https://www.memotag.io/mindmap",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    description:
+      "Keep track of daily tasks with customizable vocalized reminders for medications, appointments, and more.",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    title: "3-Axis Fall Detection",
+    link: "https://www.memotag.io/mindmap",
+    description:
+      "Real-time monitoring to identify falls, monitor jerks, and analyze sleep patterns to ensure patient safety.",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    title: "GPS and GeoFencing",
+    link: "https://www.memotag.io/mindmap",
+    description:
+      "Tracking with active heatmaps and geofencing alerts ensures safety for aggressive dementia patients.",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+    title: `MiniCog Activated
+Activities & Exercises`,
+    link: "https://www.memotag.io/mindmap",
+    description:
+      `MiniCog Activated
+Activities & Exercises
+Cognitive-level-based vocal and app-driven exercises to enhance neurological health and engagement.`,
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+    title: "Individual-Cognitive Stimulation Therapy",
+    link: "https://www.memotag.io/mindmap",
+    description:
+      "Our proprietary AI analyzes speech patterns to provide cognitive stimulation and progress tracking.",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    title: "Caregiver Support & Advanced Tools",
+    link: "https://www.memotag.io/mindmap",
+    description:
+      "Comprehensive support with summarized reports, cognitive analysis, and training resources to empower caregivers.",
   },
 ];
