@@ -1,6 +1,7 @@
-# 💡 Project Name
+# 💡 MemoTag
 
-A modern and visually appealing web interface that showcases impactful testimonials, engaging statistics, and smooth animations using React, Tailwind CSS, Framer Motion, and Typewriter effects.
+A website showcasing AI Driven Wearables for
+Proactive Caregiving
 
 ---
 
@@ -48,6 +49,6 @@ yarn dev
 
 ## 🔗 Live Demo
 
-👉 [View Live Site](https://your-live-project-link.com)
+👉 [View Live Site](https://memotag-weld.vercel.app/)
 
 ---
