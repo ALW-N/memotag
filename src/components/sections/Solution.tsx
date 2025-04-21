@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { FlipWords } from "../ui/flip-words"; // adjust the path if needed
 import { HoverBorderGradient } from "../ui/hover-border-gradient"; // import the HoverBorderGradient component
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { AnimatedTestimonials } from '../ui/animated-testimonials'; 
 import testimonialImage1 from '../../assets/p2.jpg';
 import testimonialImage2 from '../../assets/p1.jpg';

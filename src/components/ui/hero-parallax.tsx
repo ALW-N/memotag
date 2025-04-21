@@ -7,7 +7,7 @@ import {
   useSpring,
   MotionValue,
 } from "framer-motion";
-import { TextGenerateEffect } from "../ui/text-generate-effect";
+import { TextGenerateEffect } from "./text-generate-effect";
 import { BackgroundLines } from "./background-lines"; // Import the BackgroundLines component
 
 const words = [

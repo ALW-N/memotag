@@ -1,6 +1,6 @@
 // components/StatsSection.tsx
 
-import React from 'react';
+
 import { TypewriterEffect } from "./typewriter-effect";
 
 const StatsSection = () => {
