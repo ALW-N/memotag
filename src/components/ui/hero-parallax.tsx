@@ -35,7 +35,7 @@ export const HeroParallax = ({
     title: string;
     link: string;
     description: string;
-  }[];
+  }[]; // Removed thumbnail from here
 }) => {
   const firstRow = products.slice(0, 3);
   const secondRow = products.slice(3, 6);
@@ -176,7 +176,7 @@ export const ProductCard = ({
   product: {
     title: string;
     link: string;
-    thumbnail: string;
+    description: string; // Kept description here
   };
   translate: MotionValue<number>;
 }) => {
@@ -196,7 +196,7 @@ export const ProductCard = ({
           <h3 className="text-4xl font-semibold text-white mb-4">
             {product.title}
           </h3>
-          <p className="text-xl text-white flex-grow leading-relaxedpx-4 py-2 mt-2">
+          <p className="text-xl text-white flex-grow leading-relaxed px-4 py-2 mt-2">
             {product.description || "No description provided."}
           </p>
         </div>
@@ -228,19 +228,18 @@ export const Header = () => {
   return (
     <div className="mb-10 space-y-2 h-[300px] flex flex-col justify-center pb-80 z-10 relative">
       {words.map((line, index) => (
-  <motion.div
-    key={index}
-    className={line.className}
-    initial={{ opacity: 0, y: 10 }}
-    animate={index <= visibleLines ? { opacity: 1, y: 0 } : {}}
-    transition={{ duration: 1 }}
-  >
-    {index <= visibleLines ? (
-      <TextGenerateEffect words={line.text} />
-    ) : null}
-  </motion.div>
-))}
-
+        <motion.div
+          key={index}
+          className={line.className}
+          initial={{ opacity: 0, y: 10 }}
+          animate={index <= visibleLines ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 1 }}
+        >
+          {index <= visibleLines ? (
+            <TextGenerateEffect words={line.text} />
+          ) : null}
+        </motion.div>
+      ))}
     </div>
   );
 };
